@@ -13,7 +13,7 @@ FRESULT test_contiguous_file (
 
 
     *cont = 0;
-    fr = f_lseek(fp, 0);            /* Validates and prepares the file */
+    fr = f_rewind(fp);              /* Validates and prepares the file */
     if (fr != FR_OK) return fr;
 
 #if FF_MAX_SS == FF_MIN_SS
@@ -21,7 +21,7 @@ FRESULT test_contiguous_file (
 #else
     clsz = (DWORD)fp->obj.fs->csize * fp->obj.fs->ssize;
 #endif
-    fsz = fp->obj.objsize;
+    fsz = f_size(fp);
     if (fsz > 0) {
         clst = fp->obj.sclust - 1;  /* A cluster leading the first cluster for first test */
         while (fsz) {
