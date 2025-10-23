@@ -23,8 +23,8 @@ This **stm32_mw_fatfs** MCU component repository is one element **common to all*
 
 ## Release note
 
-* Details about the content of this release are available in the release note [here](https://github.com/STMicroelectronics/stm32_mw_fatfs/blob/master/src/00history.txt).
-* Details about the updates made by STMicroelectronics are available in the release note [here](https://github.com/STMicroelectronics/stm32_mw_fatfs/blob/master/src/st_readme.txt).
+* Details about the content of this release are available in the release note [here](https://github.com/STMicroelectronics/stm32_mw_fatfs/blob/master/source/00history.txt).
+* Details about the updates made by STMicroelectronics are available in the release note [here](https://github.com/STMicroelectronics/stm32_mw_fatfs/blob/master/source/st_readme.txt).
 
 ## Compatibility information
 
