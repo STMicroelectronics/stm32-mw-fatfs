@@ -19,6 +19,11 @@
   ******************************************************************************
   @endverbatim
 
+### V4.0.4/20-02-2026 ###
+============================
++ Update the "sector address" parameter type from "DWORD" to "LBA_t" in the disk_read() and disk_write() function prototypes
+  - ff_gen_drv.h
+
 ### V4.0.3/14-03-2025 ###
 ============================
 + Protect the SCB_CleanDCache_by_Addr calls in SD_DMA_Write() by a check on ENABLE_SD_DMA_CACHE_MAINTENANCE config flag.
