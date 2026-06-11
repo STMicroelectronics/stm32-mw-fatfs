@@ -19,6 +19,10 @@
   ******************************************************************************
   @endverbatim
 
+### V4.0.5/03-04-2026 ###
+============================
++ Add SW_Security_Level.md file
+
 ### V4.0.4/20-02-2026 ###
 ============================
 + Update the "sector address" parameter type from "DWORD" to "LBA_t" in the disk_read() and disk_write() function prototypes
