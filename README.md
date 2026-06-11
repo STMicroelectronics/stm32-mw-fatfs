@@ -1,5 +1,7 @@
 # Middleware FatFS MCU Component
 
+![tag](https://img.shields.io/badge/tag-r0.12c_stm32cube_20260403-brightgreen.svg)
+
 ## Overview
 
 **STM32Cube** is an STMicroelectronics original initiative to ease the developers life by reducing efforts, time and cost.
@@ -41,7 +43,6 @@ Note that:
 * in case a series supports a recent tag, it is not mentioned in front of older ones.
 
 FatFS | HAL |
----------- | ---------- |
 Tag R0.11 | Tag v1.7.3 ([stm32f0xx_hal_driver](https://github.com/STMicroelectronics/stm32f0xx_hal_driver))<br>Tag v1.1.4 ([stm32f1xx_hal_driver](https://github.com/STMicroelectronics/stm32f1xx_hal_driver))<br>Tag v1.2.4 ([stm32f2xx_hal_driver](https://github.com/STMicroelectronics/stm32f2xx_hal_driver))<br>Tag v1.5.3 ([stm32f3xx_hal_driver](https://github.com/STMicroelectronics/stm32f3xx_hal_driver))
 Tag R0.12C | Tag v1.7.8 ([stm32f4xx_hal_driver](https://github.com/STMicroelectronics/stm32f4xx_hal_driver))<br>Tag v1.2.8 ([stm32f7xx_hal_driver](https://github.com/STMicroelectronics/stm32f7xx_hal_driver))<br>Tag v1.3.0 ([stm32g0xx_hal_driver](https://github.com/STMicroelectronics/stm32g0xx_hal_driver))<br>Tag v1.2.0 ([stm32g4xx_hal_driver](https://github.com/STMicroelectronics/stm32g4xx_hal_driver))<br>Tag v1.9.0 ([stm32h7xx_hal_driver](https://github.com/STMicroelectronics/stm32h7xx_hal_driver))<br>Tag v1.10.2 ([stm32l0xx_hal_driver](https://github.com/STMicroelectronics/stm32l0xx_hal_driver))<br>Tag v1.4.0 ([stm32l1xx_hal_driver](https://github.com/STMicroelectronics/stm32l1xx_hal_driver))<br>Tag v1.12.0 ([stm32l4xx_hal_driver](https://github.com/STMicroelectronics/stm32l4xx_hal_driver))<br>Tag v1.0.3 ([stm32l5xx_hal_driver](https://github.com/STMicroelectronics/stm32l5xx_hal_driver))<br>Tag v1.6.0 ([stm32wbxx_hal_driver](https://github.com/STMicroelectronics/stm32wbxx_hal_driver))
 

@@ -19,6 +19,15 @@
   ******************************************************************************
   @endverbatim
 
+### V2.1.7/03-04-2026 ###
+============================
++ Add SW_Security_Level.md file
+
+### V2.1.6/12-02-2024 ###
+============================
++ Make FatFs internal buffers 32-byte aligned to fix cache maintenance issues.
+  - src\ff.h
+
 ### V2.1.5/18-08-2023 ###
 ============================
 + Add LICENSE.md file at the root directory.
@@ -32,7 +41,7 @@
 + Fix declaration of the "ret" parameter in SD_read()
   - src\drivers\sd_diskio_dma_rtos_template_bspv1.c
 
-+ Set “ReadStatus” variable to zero before calling BSP_SD_ReadBlocks_DMA()
++ Set "ReadStatus" variable to zero before calling BSP_SD_ReadBlocks_DMA()
   - src\drivers\sd_diskio_dma_template_bspv1.c
 
 + Fix typo error in SD_Write() where READ_CPLT_MSG is used instead of WRITE_CPLT_MSG
