@@ -19,6 +19,13 @@
   ******************************************************************************
   @endverbatim
 
+### V4.1.0/04-09-2026 ###
+============================
++ Update to FatFs R0.16 version
+
++ Apply patches to fix security vulnerabilities in the R0.16 release and earlier
+  - ff.c
+
 ### V4.0.5/03-04-2026 ###
 ============================
 + Add SW_Security_Level.md file

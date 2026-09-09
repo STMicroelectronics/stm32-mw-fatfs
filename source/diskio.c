@@ -1,7 +1,7 @@
 /*-----------------------------------------------------------------------*/
-/* Low level disk I/O module skeleton for FatFs     (C)ChaN, 2023        */
+/* Low level disk I/O module SKELETON for FatFs     (C)ChaN, 2025       */
 /*                                                                       */
-/*   Portions COPYRIGHT 2017-2023 STMicroelectronics                     */
+/*   Portions COPYRIGHT 2017-2026 STMicroelectronics                     */
 /*   Portions Copyright (C) 2013, ChaN, all right reserved               */
 /*-----------------------------------------------------------------------*/
 /* If a working storage control module is available, it should be        */
