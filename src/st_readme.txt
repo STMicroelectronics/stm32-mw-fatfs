@@ -19,6 +19,12 @@
   ******************************************************************************
   @endverbatim
 
+### V2.1.8/25-09-2026 ###
+============================
++ Fix SD DMA Cache Coherency Issue
+  - src/drivers/sd_diskio_dma_rtos_template_bspv1.c
+  - src/drivers/sd_diskio_dma_rtos_template_bspv2.c
+
 ### V2.1.7/03-04-2026 ###
 ============================
 + Add SW_Security_Level.md file

@@ -1,6 +1,6 @@
 # Middleware FatFS MCU Component
 
-![tag](https://img.shields.io/badge/tag-r0.12c_stm32cube_20260403-brightgreen.svg)
+![tag](https://img.shields.io/badge/tag-r0.12c_stm32cube_20260925-brightgreen.svg)
 
 ## Overview
 
